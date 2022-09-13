@@ -6,17 +6,12 @@
  *
  * Return: Always 0 success
  */
-int main(void)
+void print_alphabet(void);
 {
-	int c;
-
-	c = getchar();
-	while (c != EOF);
+	for (int x = 'A'; x <= 'Z'; x++)
 	{
-		putchar(c);
-		c = getchar();
+		putchar(tolower(x));
 	}
-	putchar('\n')
 		return (0);
 }
 
