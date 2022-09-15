@@ -11,10 +11,8 @@ int _isupper(int c)
 {
 	int c;
 
-		for (c >= 'A'; c <= 'Z'; c++)
-		{
-			_putchar (c);
-		}
-	_putchar('\n');
-	return (1);
+		if ((c >= 'A') && (c <= 'Z'))
+			return (1);
+		else
+			return (0);
 }
