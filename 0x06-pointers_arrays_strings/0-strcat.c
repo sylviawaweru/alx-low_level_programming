@@ -6,15 +6,25 @@
  * @dest: the destination string
  * @src: the source string
  *
- * Return: *ptr pointer to the resulting string dest
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	char src[10] = "Hello";
-	char dest[10] = "world";
+	int i;
+	int j;
 
-	char *ptr
-
-		strncat(src, dest);
-	return (*ptr);
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++
+	}
+	j = 0;
+	while (dest[j] != '\0')
+	{
+		dest[i] = src[j];
+	j++;
+	i++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
