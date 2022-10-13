@@ -46,3 +46,17 @@ int op_mod(int a, int b)
 {
 	return (a % b);
 }
+
+/**
+ * op_mul - Multiplies two numbers
+ *
+ * @a: A number
+ *
+ * @b: A number
+ *
+ * Return: Product of @a and @b
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
